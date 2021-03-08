@@ -26,6 +26,7 @@ npm i @beisen-elearning/async-component
 ### API
 
 #### asyncComponent
+适用于加载export default的React组件
 
 | arguments       | type                                        | 描述                              | required |
 | --------------- | :------------------------------------------ | --------------------------------- | -------- |
@@ -33,6 +34,7 @@ npm i @beisen-elearning/async-component
 | Loading         | React Component                             | 用于异步加载状态展示的loading组件 | false    |
 
 #### asyncMoudleComponent
+适用于加载单个export的React组件
 
 | arguments       | type                                        | 描述                                    | required |
 | --------------- | :------------------------------------------ | --------------------------------------- | -------- |
@@ -41,7 +43,7 @@ npm i @beisen-elearning/async-component
 | Loading         | REACT Component，                           | 用于异步加载状态展示的loading组件       | false    |
 
 #### asyncMoudleComponents
-
+适用于加载多个export的React组件
 | arguments       | type                                        | 描述                                          | required |
 | --------------- | :------------------------------------------ | --------------------------------------------- | -------- |
 | keys            | Array[string]                               | 通过指定keys[key]，加载多个export 的React组件 | true     |

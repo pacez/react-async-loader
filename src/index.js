@@ -1,8 +1,7 @@
 /**
  * Authoer: pace_zhong@foxmail.com
- * Name: 'react-context-hocconsumer'
- * Desc: 基于React.createContext实现的Consumer高阶组件. 将上下文注入到组件的props中。
- * Usage: 推荐修饰器用法，@Consumer, 组件从props中获取注入的上下文,默认挂载点统一为store，如果使用了contextParser，按照contextParser解析结构挂载props.
+ * Name: 'react-component-async-loader'
+ * Desc: REACT组件异步加载器, 支持同时加载多个组件从export的组件库中。
  */
 import React, { PureComponent } from "react";
 import ReactDom from "react-dom";

@@ -1,6 +1,6 @@
 {
   "name": "react-component-async-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The React component asynchronous loader",
   "main": "lib/index.js",
   "scripts": {

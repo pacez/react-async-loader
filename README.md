@@ -28,7 +28,7 @@ npm i @beisen-elearning/async-component
 #### asyncComponent
 适用于加载export default的React组件
 
-| arguments       | type                                        | 描述                              | required |
+| Arguments       | Type                                        | Desc                              | Required |
 | --------------- | :------------------------------------------ | --------------------------------- | -------- |
 | importComponent | () => import（componentName/componentpath） | import 需要加载的组件             | true     |
 | Loading         | React Component                             | 用于异步加载状态展示的loading组件 | false    |
@@ -36,7 +36,7 @@ npm i @beisen-elearning/async-component
 #### asyncMoudleComponent
 适用于加载单个export的React组件
 
-| arguments       | type                                        | 描述                                    | required |
+| Arguments       | Type                                        | Desc                                    | Required |
 | --------------- | :------------------------------------------ | --------------------------------------- | -------- |
 | key             | string                                      | 通过指定key，加载单个export 的React组件 | true     |
 | importComponent | () => import（componentName/componentpath） | import 需要加载的组件                   | true     |
@@ -45,7 +45,7 @@ npm i @beisen-elearning/async-component
 #### asyncMoudleComponents
 适用于加载多个export的React组件
 
-| arguments       | type                                        | 描述                                          | required |
+| Arguments       | Type                                        | Desc                                          | Required |
 | --------------- | :------------------------------------------ | --------------------------------------------- | -------- |
 | keys            | Array[string]                               | 通过指定keys[key]，加载多个export 的React组件 | true     |
 | importComponent | () => import（componentName/componentpath） | import 需要加载的组件                         | true     |

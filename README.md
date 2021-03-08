@@ -44,6 +44,7 @@ npm i @beisen-elearning/async-component
 
 #### asyncMoudleComponents
 适用于加载多个export的React组件
+
 | arguments       | type                                        | 描述                                          | required |
 | --------------- | :------------------------------------------ | --------------------------------------------- | -------- |
 | keys            | Array[string]                               | 通过指定keys[key]，加载多个export 的React组件 | true     |

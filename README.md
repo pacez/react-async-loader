@@ -20,7 +20,7 @@ REACT组件异步加载器
 ### 安装
 
 ```shell
-npm i @beisen-elearning/async-component
+npm i react-component-async-loader
 ```
 
 ### API
